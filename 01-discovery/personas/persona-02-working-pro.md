@@ -1,72 +1,65 @@
-> **Liên kết ngữ cảnh:** [Market & Needs](../01-market-and-needs.md) | [Problem Statement](../02-problem-statement.md) | [Product Vision](../03-product-vision.md) | [Product Canvas](../04-product-canvas.md) | [Persona Student](./persona-01-student.md)
+> **Liên kết ngữ cảnh:** [Skill Harness (SSOT)](../../00-ai-harness/skill.md) | [PO Kit](../../00-ai-harness/po-kit.md) | [Market & Needs](../01-market-and-needs.md) | [Problem Statement](../02-problem-statement.md) | [Persona Student](./persona-01-student.md) | [Product Vision](../03-product-vision.md) | [Product Canvas](../04-product-canvas.md)
 
-# Persona 02: Người đi làm 23–30 tuổi
+# Persona 02: Người đi làm bận rộn (Nhân viên văn phòng trẻ 23–28 tuổi)
 
-## 1. Demographics
-- Tuổi: 23–30
-- Giới tính: Nam/Nữ, đa dạng
-- Công việc: nhân viên văn phòng, hỗ trợ khách hàng, marketing, sales, quản lý dự án, startup, công việc đa nhiệm
-- Thiết bị: Smartphone chủ yếu; laptop khi làm việc và check app lúc nghỉ ngắn hoặc trước khi ngủ
-- Bối cảnh học: Học trong thời gian “ngắt quãng”, 10–15 phút mỗi ngày, đôi khi chỉ trong lúc chờ cuộc họp hoặc di chuyển
-- Mục tiêu: giao tiếp tự tin trong công việc, email, cuộc họp, phỏng vấn, và các tình huống thực tế
+> **Vai trò trong Vault:** Đại diện phân khúc mở rộng bên cạnh nhóm sinh viên cốt lõi (**58,3%** năm 1 & **27,8%** năm 4), giúp sản phẩm phục vụ được người đi làm trẻ cần giao tiếp công sở trong khoảng thời gian ngắt quãng. *(Ghi chú chống Hallucination: Các số liệu % định lượng trong tài liệu này trích xuất từ khảo sát $N = 36$ sinh viên và bối cảnh EF EPI 2025; hành vi người đi làm được ánh xạ theo định nghĩa tại [skill.md](../../00-ai-harness/skill.md)).*
 
-## 2. Goals & Motivations
-- Muốn nói tiếng Anh tự tin trong công việc, không cần học theo cách giáo trình xa rời thực tế.
-- Muốn tiếp cận các mẫu câu cần dùng ngay trong môi trường làm việc: email, meeting, khách hàng, báo cáo ngắn.
-- Muốn học ngắn gọn, có tính áp dụng thực tế và không mất thời gian vào những câu vô nghĩa.
-- Muốn cải thiện “cảm giác nói” và kỹ năng phản xạ, không chỉ có kiến thức lý thuyết.
-- Muốn thấy tiến bộ thể hiện qua khả năng nói câu đúng và tự nhiên hơn trong các tình huống cụ thể.
+## 1. Thông tin nhân khẩu học (Demographics)
+* **Tuổi:** 23–28 tuổi.
+* **Giới tính:** Nam/Nữ.
+* **Nghề nghiệp:** Nhân viên văn phòng trẻ (IT, marketing, kinh doanh, vận hành, hỗ trợ khách hàng) thường xuyên **tăng ca đột xuất** hoặc lịch trình dày đặc.
+* **Trình độ & Mục tiêu:** Nền tảng mất gốc/trung bình (**A1–A2** lên giao tiếp thực tế), cần phản xạ nói trong bối cảnh công sở (chào hỏi đồng nghiệp, trao đổi tiến độ, họp ngắn, xử lý tình huống với khách hàng).
+* **Thiết bị:** **Smartphone** là chính (sử dụng bằng 1 tay khi di chuyển, chờ thang máy, hoặc giờ nghỉ trưa tại văn phòng).
 
-## 3. Habits
-- Thường học trong các khoảng thời gian rảnh ngắn, không có lịch học cố định.
-- Yêu thích nghi thức “làm xong một việc nhỏ” thay vì học dài trên một khung giờ.
-- Tiếp cận nội dung theo mục tiêu công việc: email, lời mời, chốt deal, phỏng vấn, làm việc nhóm.
-- Coi app học như một trợ lý hỗ trợ nếu dễ dùng và không cồng kềnh.
-- Có xu hướng bỏ qua nội dung quá dài hoặc thiếu tính ứng dụng.
+## 2. Mục tiêu & Động lực (Goals & Motivations)
+* Tận dụng tối đa các khoảng trống **10–15 phút** trong ngày (nghỉ trưa, trên xe di chuyển) để học tiếng Anh thực dụng cho công việc.
+* Cần tình huống giao tiếp gắn với **bối cảnh công sở thực tế** thay vì câu mẫu hàn lâm, sách giáo khoa.
+* Không muốn bị mất chuỗi cố gắng (Streak) chỉ vì một ngày **tăng ca đột xuất** không kịp mở app.
+* Cần chế độ học linh hoạt khi đang ở **nơi công cộng / văn phòng đông người** mà không tiện bật loa hoặc thu âm giọng nói.
 
-## 4. Pain Points
-- Học nhiều từ vựng nhưng không biết nói như thế nào khi gặp tình huống thực tế.
-- Không có thời gian cho khóa học dài và không muốn “học lại những thứ không cần thiết”.
-- Khó có động lực nếu không thấy kết quả ngay trong giao tiếp.
-- Học quá máy móc, thiếu phản xạ, dẫn đến thất bại khi nói với khách hàng hoặc đồng nghiệp.
-- Bị nản khi các app không phân biệt rõ giữa tiếng Anh giao tiếp thực tế và tiếng Anh sách vở.
+## 3. Thói quen học tập (Habits)
+* **Học theo khung thời gian ngắt quãng:** Chỉ có **10–15 phút** vào giờ nghỉ trưa hoặc lúc đi xe, dễ bị gián đoạn bất ngờ bởi tin nhắn công việc hay cuộc họp.
+* **Thực dụng, thiếu kiên nhẫn với thao tác rườm rà:** Muốn vào học ngay trong 1–2 chạm, ghét quảng cáo dày hoặc quy trình tự tạo thẻ học tốn thời gian.
+* **Nhạy cảm với không gian xung quanh:** Khi ngồi ở quán cà phê, văn phòng mở hay trên xe công cộng, không thể lúc nào cũng làm bài Nghe/Nói phát ra âm thanh.
 
-## 5. UI/UX Implications (Ánh xạ sang Design System)
+## 4. Nỗi đau (Pain Points)
+* **Không có thời gian theo lộ trình dài & hay tăng ca đột xuất:** Dễ mất động lực và đứt chuỗi Streak nếu ứng dụng phạt quá nặng khi nghỉ 1 ngày do bận việc.
+* **Ngại nói nơi đông người & thiếu môi trường thực hành công sở:** Phản chiếu cùng nỗi đau phổ biến tại Việt Nam (trong khảo sát $N = 36$: **63,9%** sợ phát âm sai và **63,9%** thiếu môi trường luyện tập; điểm Nói EF EPI 2025 của Việt Nam chỉ đạt **461/800**).
+* **Khó phân biệt lỗi sai trong ngữ cảnh công việc:** Các app thông thường chỉ chấm đúng/sai mà không giải thích vì sao cách diễn đạt đó thiếu tự nhiên hoặc sai cấu trúc ngữ pháp.
 
-### Từ Demographics, Personality và Pain Points, giao diện cần thiết kế như thế nào?
-- Độ tuổi 23–30: giao diện cần tối ưu cho người đã quen dùng app, yêu cầu tối giản nhưng hiệu quả; không quá “sáng tạo kiểu trẻ con”.
-- Tính cách: bận rộn, có định hướng rõ mục tiêu, thích sử dụng nhanh, đo lường hiệu quả qua kết quả.
-- Pain points: mất thời gian, không muốn học vô nghĩa, cần câu trả lời chuyên nghiệp và áp dụng thực tiễn.
+## 5. Ánh xạ sang Giao diện & Trải nghiệm (UI/UX Implications cho Design System)
 
-=> Vì vậy, design system nên có:
-- Màu sắc: tông xanh navy, xanh dương đậm, xám trung tính, kèm accent xanh lá / cam để tạo cảm giác chuyên nghiệp nhưng vẫn động lực. Màu sắc không quá sặc sỡ, tránh cảm giác “dễ thương” quá mức.
-- Bố cục: đường dẫn ngắn, tối giản, tập trung vào “mục tiêu công việc”, có các card như: “Email phản hồi”, “Meeting follow-up”, “Client conversation”, “Interview small talk”.
-- Cỡ chữ: 15–16px cho body, 18–24px cho title, rõ ràng, dễ đọc trong thời gian ngắn, không chật chội, không quá nhiều segment.
-- Components: task-based micro lessons, quick practice cards, “sound like a pro” suggestion, review summary by category, time-saving streak indicator.
-- Tone giao diện: chuyên nghiệp, đánh giá công việc rõ ràng, có phần tự tin và hỗ trợ; không gây cảm giác “học từ sách giáo khoa quá khô”.
+Từ đặc điểm **23–28 tuổi, bận rộn (10–15 phút nghỉ trưa/đi xe), hay tăng ca đột xuất và thường học ở nơi công cộng**, giao diện Mobile App (React Native) trong `02-design-system/` cần thiết kế như sau:
 
-## 6. User Journey – Từ người bận rộn đến giao tiếp tự tin
+* **Ánh xạ tính năng cốt lõi:**
+  * Đặc thù công việc $\rightarrow$ Chủ đề **Tình huống giao tiếp công sở** (Micro-learning ngắn gọn, áp dụng ngay).
+  * Hay tăng ca đột xuất $\rightarrow$ Tính năng **Đóng băng chuỗi (Streak Freeze)** (gắn với cửa hàng đổi thưởng, tương ứng **25,9%** nhu cầu khảo sát).
+  * Học lúc đi xe / ở văn phòng đông người $\rightarrow$ Nút **"Tạm ẩn bài Nghe/Nói 15 phút"** giúp chuyển sang bài đọc/ngữ pháp im lặng ngay lập tức mà không làm gián đoạn phiên học.
+  * Cần hiểu nhanh lỗi sai $\rightarrow$ **AI Tutor giải thích lỗi ngắn gọn bằng tiếng Việt** ngay trong popup phản hồi.
+* **Màu sắc (Color Palette):**
+  * Dùng chung nền tảng **Design System** thống nhất của **LingoCraft AI** (không tách ứng dụng riêng), giữ độ tương phản cao, màu trung tính sạch sẽ (Trắng/Xám nhạt hoặc Dark Mode gọn mắt) kết hợp màu nhấn chuyên nghiệp (Xanh dương đậm / Indigo) để không tạo cảm giác quá "trẻ con" hay rối mắt khi mở app tại văn phòng.
+* **Bố cục (Layout):**
+  * **Tối giản, ít thao tác chạm (Quick Resume):** Ngay tại màn hình chính có thẻ *"Tiếp tục bài 5 phút"* và công tắc bật/tắt nhanh chế độ **"Tạm ẩn Nghe/Nói 15 phút"** nằm ở vị trí dễ thấy trên thanh điều khiển bài học; hỗ trợ thao tác 1 tay khi đứng/ngồi trên xe.
+* **Cỡ chữ & Kiểu chữ (Typography):**
+  * Phông chữ sắc nét, dễ đọc nhanh trong điều kiện ánh sáng thay đổi (ngoài đường, văn phòng): Tiêu đề tình huống **18–20px**, nội dung câu thoại/câu hỏi **16–18px**, nút bấm & trạng thái ("Tạm ẩn Nghe/Nói 15p", "Streak Freeze") **14–15px** rõ ràng.
+* **Components cốt lõi cần chuẩn hóa trong Design System:**
+  * `MuteSpeakingToggle` (Nút/Banner **"Tạm ẩn bài Nghe/Nói 15 phút"**)
+  * `StreakFreezeIndicator` (Trạng thái bảo vệ chuỗi khi tăng ca)
+  * `WorkplaceScenarioCard` (Thẻ chọn tình huống giao tiếp công sở ngắn 5–10 phút)
+  * `QuickResumeBanner` (Tiếp tục bài học dở trong 1 chạm)
+
+## 6. Hành trình người dùng (User Journey — Mermaid)
 
 ```mermaid
 journey
-    title Người đi làm: luyện phản xạ và cải thiện giao tiếp thực tế
-    section Nhanh chóng bắt đầu
-      Mở app trong giờ nghỉ: 5
-      Chọn tình huống công việc: 5
-    section Học đúng mục tiêu
-      Làm roleplay 3 phút: 5
-      Nhận phản hồi lỗi ngữ pháp: 5
-    section Cải thiện nói
-      Luyện câu trả lời thực tế: 5
-      Nói với AI và nghe lại: 4
-    section Tối ưu thời gian
-      Rà soát lỗi lặp lại: 4
-      Hoàn thành streak 7 ngày: 5
-    section Kết quả
-      Cảm giác tự tin hơn khi làm việc: 5
-      Tăng khả năng giao tiếp thực tế: 5
+    title Persona 02 (Nguoi di lam 23-28t): Tranh thu 10-15 phut nghi trua / di xe
+    section Bat dau nhanh (30 giay)
+      Mo app trong gio nghi trua: 5: Nguoi di lam
+      Bat nut Tam an Nghe/Noi 15 phut noi cong cong: 5: Nguoi di lam
+    section Luyen tinh huong cong so (10 phut)
+      Chon chu de giao tiep cong so: 5: Nguoi di lam
+      Doc giai thich loi ngu phap bang AI Tutor: 5: Nguoi di lam
+    section Bao ve thoi quen khi tang ca
+      Dung Streak Freeze ngay tang ca dot xuat: 4: Nguoi di lam
+      Quay lai luyen noi khi ve nha: 5: Nguoi di lam
 ```
-
-## 7. Insight cốt lõi
-Người đi làm muốn “học đúng thứ cần thiết trong thời gian ngắn” và không muốn đặt mình vào những bài học dài, vô nghĩa hoặc quá kết cấu. Sản phẩm cần tập trung vào giao tiếp thực tế, role-play, và giải thích lỗi trong ngữ cảnh job-related.
-

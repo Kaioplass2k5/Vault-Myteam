@@ -1,82 +1,57 @@
-> **Liên kết ngữ cảnh:** [Market & Needs](./01-market-and-needs.md) | [Product Vision](./03-product-vision.md) | [Product Canvas](./04-product-canvas.md) | [Persona Student](./personas/persona-01-student.md) | [Persona Working Pro](./personas/persona-02-working-pro.md)
+> **Liên kết ngữ cảnh:** [Skill Harness (SSOT)](../00-ai-harness/skill.md) | [PO Kit](../00-ai-harness/po-kit.md) | [Market & Needs](./01-market-and-needs.md) | [Persona Student](./personas/persona-01-student.md) | [Persona Working Pro](./personas/persona-02-working-pro.md) | [Product Vision](./03-product-vision.md) | [Product Canvas](./04-product-canvas.md) | [MVP MoSCoW](./05-mvp-moscow.md)
 
-# 02. Problem Statement
+# 02. Tuyên bố Vấn đề (Problem Statement)
 
-## 1. Core Problem Statement
+## 1. Tuyên bố Vấn đề Cốt lõi (Core Problem Statement)
 
-Người học tiếng Anh tại Việt Nam đang đối mặt với một vòng lặp học không hiệu quả: họ làm nhiều bài tập, lặp lại các câu mẫu, và thậm chí có thể đạt điểm ổn định trong các bài kiểm tra ngắn, nhưng không hiểu bản chất của lỗi ngữ pháp và không có cơ hội luyện phản xạ trong ngữ cảnh thực tế. Hệ thống học hiện tại thường chỉ chấm đúng/sai, không giải thích sâu vì sao câu sai, làm sao sửa, và khi nào nên dùng cấu trúc đó trong tình huống cụ thể.
+Theo quy tắc chuẩn hóa trong [skill.md](../00-ai-harness/skill.md), tuyên bố vấn đề tập trung hoàn toàn vào **người dùng, nỗi đau có số liệu kiểm chứng ($N = 36$) và hệ quả** — tuyệt đối **không lồng ghép giải pháp kỹ thuật** vào bên trong mệnh đề vấn đề.
 
-Vấn đề không nằm ở việc học viên thiếu nỗ lực, mà nằm ở việc phần lớn nền tảng hiện có thiếu tính cá nhân hóa, thiếu logic giảng giải, và thiếu mô hình luyện nói dựa trên ngữ cảnh thực tế. Kết quả là học viên học máy móc, dễ bỏ học, mất động lực, và không hình thành phản xạ ngôn ngữ thật sự.
+> **Tuyên bố Vấn đề (Problem Statement đã khóa):**
+> *"Sinh viên đang học ngoại ngữ cần một cách học giúp họ duy trì việc học đều đặn và tự tin thực hành giao tiếp, vì **69,4%** sinh viên khảo sát nhanh chán hoặc thiếu động lực, **66,7%** thường quên từ vựng, trong khi **63,9%** sợ nói sai và **63,9%** không có môi trường luyện tập. Bên cạnh đó, trong nhóm từng sử dụng ứng dụng có streak và điểm, **66,7%** (**50,0%** tổng mẫu) đã bỏ sau vài ngày. Những khó khăn này khiến quá trình học bị gián đoạn, hình thành thói quen cày streak ảo và làm chậm tiến bộ giao tiếp."*
 
-### Mệnh đề vấn đề chuẩn hóa
-Người học tiếng Anh Việt Nam cần một giải pháp học ngắn, cá nhân hóa, có AI giải thích chuyên sâu và luyện nói phản xạ thực tế; hiện tại các ứng dụng phổ biến chỉ tập trung vào việc lặp lại hoặc kiểm tra vội nhưng không xây dựng được hệ thống hiểu lỗi và phản xạ đúng ngữ cảnh.
+### Phân rã 4 thành phần theo công thức chuẩn
+* **Nhóm người dùng (`[Nhóm người dùng]`):** Sinh viên Việt Nam đang học ngoại ngữ (đặc biệt **58,3%** sinh viên năm 1 bắt đầu từ gốc A1–A2 và **27,8%** sinh viên năm 4 ôn chuẩn đầu ra TOEIC/B1 trong mẫu $N = 36$).
+* **Nhu cầu cốt lõi (`[Nhu cầu cốt lõi]`):** Một cách học giúp duy trì việc học đều đặn trong quỹ thời gian ngắn (**44,4%** chỉ có 15–30 phút/ngày; **16,7%** có < 15 phút/ngày) và tự tin thực hành giao tiếp.
+* **Insight kèm số liệu thực tế (`[Insight]`):**
+  * **69,4%** ($25/36$ SV) nhanh chán, thiếu động lực, dễ bỏ giữa chừng.
+  * **66,7%** ($24/36$ SV) học trước quên sau, quên từ vựng nhanh.
+  * **63,9%** ($23/36$ SV) sợ nói/phát âm sai, ngại giao tiếp.
+  * **63,9%** ($23/36$ SV) thiếu môi trường thực hành giao tiếp.
+  * **66,7%** nhóm từng dùng app có Streak/XP (tương đương **50,0%** tổng mẫu) đã bỏ cuộc chỉ sau vài ngày; đồng thời nhiều đánh giá 1–2 sao trên Google Play phản ánh tình trạng app hiện tại báo sai nhưng không giải thích ngữ pháp, quảng cáo dày và hết Tim gây ngắt quãng.
+* **Hậu quả (`[Hậu quả]`):** Quá trình học bị gián đoạn, hình thành thói quen "cày streak ảo" để giữ chuỗi thay vì hiểu bài, và làm chậm tiến bộ giao tiếp thực tế (phản ánh qua điểm **EF EPI 2025** của Việt Nam là **500/800**, trong đó **Nói 461** và **Nghe 470** thấp nhất).
 
-## 2. Impact (Hệ quả)
+---
+
+## 2. Hệ quả (Impact)
 
 ### 2.1 Hệ quả đối với người học
-- Mất động lực: học viên cảm thấy trả lời đúng sai nhưng không biết vì sao, dễ chán nản và bỏ cuộc.
-- Học máy móc: người dùng ghi nhớ câu mẫu từ hình thức, không hiểu ngữ pháp.
-- Nản vì điểm số không cải thiện: họ làm nhiều nhưng không tiến bộ trong giao tiếp thực tế.
-- Thiếu tự tin nói: lười nói vì sợ sai, không có môi trường luyện phản xạ theo tình huống đời sống.
-- Dễ mắc lại lỗi: những lỗi lặp lại không được nhận diện và điều chỉnh theo mô hình học tập cá nhân.
+* **Học gián đoạn & tỷ lệ bỏ cuộc cao:** **50,0%** tổng mẫu (**66,7%** người từng dùng app có Streak/XP) bỏ học chỉ sau vài ngày vì cảm thấy bài học nhàm chán (**69,4%**) hoặc bị ngắt quãng bởi cơ chế hết Tim/quảng cáo dày.
+* **Cày streak ảo, không hiểu bản chất:** Khi gặp câu sai mà không được giải thích quy tắc ngữ pháp hay liên hệ với tiếng Việt, người học chọn đại cho qua để giữ chuỗi, dẫn đến học trước quên sau (**66,7%**).
+* **Tê liệt phản xạ giao tiếp:** Tâm lý sợ phát âm sai (**63,9%**) cộng với việc thiếu môi trường luyện tập (**63,9%**) khiến người học dù biết mặt chữ vẫn không dám mở miệng giao tiếp trong đời sống hay thi cử.
 
-### 2.2 Hệ quả đối với doanh nghiệp / sản phẩm
-- Tỷ lệ retention thấp: người dùng bỏ app sau vài tuần vì không thấy tiến bộ rõ ràng.
-- Tỷ lệ conversion giới hạn: người dùng không sẵn sàng trả phí khi chưa cảm nhận được hiệu quả thực tiễn.
-- Thiếu sự khác biệt: sản phẩm bị trùng với ứng dụng học từ vựng/flashcard cơ bản.
-- Mất cơ hội upsell: nếu không có AI feedback và luyện nói, không thể tạo gói Pro giá trị cao.
+### 2.2 Hệ quả đối với Sản phẩm & Kinh doanh
+* **Khó giữ chân người dùng (Low Retention):** Nếu sản phẩm chỉ sao chép Gamification bề mặt (Streak/XP) mà không giải quyết được gốc rễ hiểu lỗi và luyện nói, tỷ lệ rời bỏ sau vài ngày sẽ lặp lại ở mức cao như các app hiện hữu (**66,7%** churn trong nhóm từng dùng app Streak).
+* **Khó chuyển đổi trả phí (Low Conversion):** Sinh viên là tệp nhạy cảm về giá; nếu họ không thấy tiến bộ thực sự ở các kỹ năng yếu nhất (Nghe **470**, Nói **461**) hoặc gặp rào cản giá quá cao ngay từ đầu, sản phẩm sẽ mất khả năng chuyển đổi sang gói thuê bao.
 
-### 2.3 Hệ quả đối với xã hội và giáo dục
-- Học sinh, sinh viên học theo kiểu “đúng sai” nhưng không phát triển kiến thức nền tảng vững chắc.
-- Người đi làm không có thời gian học dài, dẫn đến kỷ luật học yếu và áp lực lớn khi cần giao tiếp.
-- Thị trường học tiếng Anh bị phân mảnh: chia thành các app lặp lại và các lớp học kinh phí cao nhưng không phù hợp với nhu cầu người Việt.
+---
 
-## 3. Sơ đồ nguyên nhân – hệ quả
+## 3. Sơ đồ Nguyên nhân – Hệ quả (Cause & Effect Flowchart)
 
 ```mermaid
 flowchart TD
-    A[Người học có nhu cầu cải thiện tiếng Anh thực tế] --> B[Học theo app phổ biến nhưng chỉ chấm đúng/sai]
-    B --> C[Thiếu giải thích sâu về logic ngữ pháp]
-    B --> D[Thiếu luyện nói trong ngữ cảnh thực tế]
-    C --> E[Người học lặp lại lỗi không nhận ra nguyên nhân]
-    D --> F[Người học sợ nói, phản xạ chậm]
-    E --> G[Không cải thiện điểm số và tự tin]
-    F --> G
-    G --> H[Thất vọng, mất động lực, bỏ học]
-    H --> I[Retention thấp và khó monetization]
+    A["Quy thoi gian han che: 44,4% hoc 15-30p/ngay; 16,7% < 15p/ngay"] --> B["Dung cac app pho bien hien tai (Duolingo, Quizlet, ELSA)"]
+    B --> C["Bao sai nhung khong giai thich ngu phap, quang cao day, het Tim"]
+    B --> D["Phai tu tao the (Quizlet) hoac khoa hoi thoai AI goi dat (ELSA)"]
+    C --> E["69,4% nhanh chan & 66,7% hoc truoc quen sau"]
+    D --> F["63,9% so noi sai & 63,9% thieu moi truong luyen tap"]
+    E --> G["66,7% nhom dung app Streak/XP (50,0% tong mau) bo sau vai ngay"]
+    F --> H["Diem Noi (461) & Nghe (470) thap nhat (EF EPI 2025)"]
+    G --> I["Hoc gian doan, cay streak ao, cham tien bo giao tiep"]
+    H --> I
 ```
 
-## 4. Nghiên cứu sâu hơn về các nguyên nhân gốc rễ
+---
 
-### 4.1 Cấu trúc học hiện tại quá “từng phần”
-Học viên học từ vựng, ngữ pháp, phát âm, nói, nghe dưới dạng các đơn vị riêng rẽ, nhưng không được gắn vào một vòng lặp phản hồi khiến lỗi được sửa ngay tại thời điểm phát sinh.
-
-### 4.2 Thiếu AI “nói câu chuyện” về lỗi
-Nhiều hệ thống chỉ báo “There is a grammar mistake” mà không giải thích:
-- lỗi nằm ở cấu trúc nào,
-- vì sao cách nói khác đúng hơn,
-- trong trường hợp nào có thể dùng khác,
-- sự khác biệt giữa ngôn ngữ học thuật và giao tiếp thực tế.
-
-### 4.3 Luyện nói chưa có tính tương tác
-Học viên không thực sự nói vì:
-- hệ thống thiếu AI đánh giá phản xạ,
-- thiếu tình huống thực tế,
-- chưa có luồng đúng sai ngay khi nói.
-
-### 4.4 Gamification chưa được thiết kế đúng mục tiêu
-Gamification nếu chỉ là điểm, xu, streak mà không dẫn tới hiểu sâu và luyện nói sẽ khiến learner cảm thấy “được tích điểm” nhưng không tiến bộ thực sự.
-
-## 5. Tiêu chí thành công của giải pháp
-
-- Giảm số lỗi lặp lại trong 30 ngày sau khi học.
-- Tăng tỷ lệ hoàn bài học mỗi ngày và duy trì streak.
-- Tăng cảm giác “hiểu vì sao” và “biết nói vào tình huống” thay vì chỉ “biết đúng/sai”.
-- Tăng tỷ lệ thanh toán gói Pro nhờ nhận thấy giá trị rõ ràng.
-
-## 6. Kết nối với các tài liệu khác
-- Market gap và nhu cầu người dùng: [01-market-and-needs.md](./01-market-and-needs.md)
-- Tầm nhìn sản phẩm: [03-product-vision.md](./03-product-vision.md)
-- Product canvas: [04-product-canvas.md](./04-product-canvas.md)
-- Persona chính: [persona-01-student.md](./personas/persona-01-student.md) và [persona-02-working-pro.md](./personas/persona-02-working-pro.md)
-
+## 4. Bước tiếp theo trong Chuỗi ngữ cảnh (Context Chain)
+* Nguồn dữ liệu: [01. Market & Needs](./01-market-and-needs.md)
+* Tiếp theo: [Persona 01: Sinh viên](./personas/persona-01-student.md) và [Persona 02: Người đi làm bận rộn](./personas/persona-02-working-pro.md)

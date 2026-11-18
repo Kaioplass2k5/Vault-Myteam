@@ -1,94 +1,48 @@
-> **Liên kết ngữ cảnh:** [Market & Needs](./01-market-and-needs.md) | [Problem Statement](./02-problem-statement.md) | [Product Vision](./03-product-vision.md) | [Persona Student](./personas/persona-01-student.md) | [Persona Working Pro](./personas/persona-02-working-pro.md)
+> **Liên kết ngữ cảnh:** [Skill Harness (SSOT)](../00-ai-harness/skill.md) | [PO Kit](../00-ai-harness/po-kit.md) | [Market & Needs](./01-market-and-needs.md) | [Problem Statement](./02-problem-statement.md) | [Persona Student](./personas/persona-01-student.md) | [Persona Working Pro](./personas/persona-02-working-pro.md) | [Product Vision](./03-product-vision.md) | [MVP MoSCoW](./05-mvp-moscow.md)
 
-# 04. Product Canvas
+# 04. Product Canvas & Lean Canvas 9 Ô (`LingoCraft AI`)
 
-## 1. Product Summary
+## 1. Bảng Tóm tắt Product Canvas (Theo chuẩn `po-kit.md`)
 
-| Trường | Mô tả |
-|---|---|
-| Tên sản phẩm | AI English Coach Vietnam (working title) |
-| Goals / KPIs | Tỷ lệ giữ chân 30 ngày > 35%; tỷ lệ hoàn bài học hàng ngày > 60%; tăng chỉ số self-reported confidence > 25%; conversion Pro > 5% trong 90 ngày |
-| Target Personas | Sinh viên 18–22 tuổi học TOEIC/B1; người đi làm 23–30 tuổi cần giao tiếp thực tế |
-| Key Pain Points | Không hiểu sai ngữ pháp; quá nhiều app lặp lại câu mẫu; thiếu luyện nói phản xạ; mất động lực |
-| Core Solutions | AI grammar diagnostic, deep explanation, speaking practice, adaptive review, gamified streaks |
-| Monetization | Freemium + Pro subscription + goal-based bundle + B2B partnership |
-| Differentiator | Kết hợp AI giải thích lỗi chuyên sâu + luyện nói phản xạ + gamification trong một vòng lặp hàng ngày |
+| Trường thông tin | Nội dung chuẩn hóa theo `skill.md` |
+| :--- | :--- |
+| **Tên sản phẩm** | **LingoCraft AI** *(Đội SBTC - VKU)* |
+| **Goals / KPIs** | **OKRs:** MVP hoàn thành tỷ lệ bài $\ge 70\%$ & crash $\le 2$ (T3); $5$ chủ đề / $200+$ bài ngắn & $\ge 30\%$ học $\ge 3$ ngày/tuần, Streak TB $\ge 5$ ngày (T5); $1.000$ user thử & Retention tuần 4 $\ge 25\%$, CSAT $\ge 4.0/5$ (T6).<br>**Key Metrics:** DAU, tỷ lệ hoàn thành bài $> 65\%$, Retention $D1 > 45\%$, $D7 > 25\%$, $D30 > 12\text{–}35\%$, tỷ lệ dùng AI Tutor $> 50\%$, Conversion gói Pro $3\text{–}5\%$. |
+| **Target Personas** | 1. **Sinh viên đại học (18–22 tuổi)** ôn TOEIC/B1 (trọng tâm năm 1 chiếm **58,3%** & năm 4 chiếm **27,8%**).<br>2. **Người đi làm trẻ (23–28 tuổi)** cần giao tiếp công sở trong 10–15 phút rảnh. |
+| **Key Pain Points** | Nhanh chán/dễ bỏ (**69,4%**); học trước quên sau (**66,7%**); sợ nói/phát âm sai (**63,9%**); thiếu môi trường luyện tập (**63,9%**); **66,7%** người từng dùng app Streak/XP (**50,0%** tổng mẫu) bỏ sau vài ngày. |
+| **Core Solutions** | Micro-learning **5–10 phút** (1 câu/màn hình) + **AI Tutor** giải thích lỗi sai tiếng Việt tức thì + **AI chấm phát âm cơ bản** + **Gamification** (Streak, XP, Hearts, Đua top/Thách đấu bạn bè). |
 
-## 2. Product Canvas Details
+---
 
-### 2.1 Product / Service
-Ứng dụng học tiếng Anh gamified tích hợp AI, cho phép người dùng học mini-lessons, nhận feedback chi tiết về sai ngữ pháp, sửa lỗi theo logic và luyện nói phản xạ trong các tình huống cụ thể.
+## 2. Mô hình Kinh doanh Lean Canvas 9 Ô (Theo thứ tự liền mạch Bước 5 `skill.md`)
 
-### 2.2 Goals / KPIs
-- Mục tiêu người dùng: cải thiện hiểu biết ngữ pháp, nâng cao phản xạ giao tiếp, duy trì thói quen học đều đặn.
-- Mục tiêu kinh doanh: tăng retention, tăng conversion và duy trì giá trị gói Pro.
-- KPIs chính:
-  - Daily Active Users (DAU) / Weekly Active Users (WAU)
-  - Completion rate của lesson
-  - Repeated error reduction rate
-  - Speaking confidence score
-  - Pro conversion rate
+| Ô Lean Canvas | Nội dung chi tiết (Single Source of Truth) |
+| :--- | :--- |
+| **1. Problem (Vấn đề)** | • Học vẹt, không hiểu gốc ngữ pháp.<br>• Cày streak ảo & bỏ cuộc sớm (**50,0%** tổng mẫu / **66,7%** nhóm từng dùng app Streak bỏ sau vài ngày; **69,4%** nhanh chán; **66,7%** quên từ vựng).<br>• Thiếu môi trường phản xạ nói & sợ nói sai (**63,9%**). |
+| **2. Customer Segments (Phân khúc khách hàng)** | • **Sinh viên ĐH (18–22 tuổi):** bắt đầu từ gốc A1–A2, ôn chuẩn đầu ra TOEIC/B1.<br>• **Người đi làm trẻ (23–28 tuổi):** cần giao tiếp công sở nhanh gọn.<br>• **Early Adopters:** Sinh viên năm 1 (**58,3%**) & Sinh viên năm 4 sắp xét tốt nghiệp (**27,8%**). |
+| **3. Unique Value Proposition (UVP)** | *"Sự kết hợp giữa tính gây nghiện của Duolingo + Gia sư giải thích ngữ pháp ChatGPT + Luyện phản xạ nói ELSA trong 10 phút/ngày với chi phí sinh viên."* |
+| **4. Channels (Kênh tiếp cận)** | • Short-video **TikTok / Reels** chữa bẫy ngữ pháp & lỗi phát âm người Việt.<br>• **Câu lạc bộ (CLB) tiếng Anh** tại các trường đại học.<br>• Phát hành **Freemium App** (mở miễn phí vòng lặp cốt lõi 6 tháng đầu). |
+| **5. Solution (Giải pháp)** | • **Micro-learning 5–10 phút** (1 câu/màn hình).<br>• **AI Tutor** giải thích lỗi sai tức thì bằng tiếng Việt ngay tại popup báo sai.<br>• **AI chấm phát âm cơ bản** cho người mất gốc.<br>• **Đua top / Thách đấu bạn bè** giữ động lực (**40,7%**). |
+| **6. Key Metrics (Chỉ số đo lường)** | • **DAU** (Daily Active Users).<br>• Tỷ lệ hoàn thành bài học **$> 65\%$** (mục tiêu MVP $\ge 70\%$).<br>• Retention: **$D1 > 45\%$**, **$D7 > 25\%$**, **$D30 > 12\text{–}35\%$**.<br>• Tỷ lệ sử dụng **AI Tutor $> 50\%$**.<br>• **Conversion** nâng cấp gói Pro **$3\text{–}5\%$**. |
+| **7. Unfair Advantage (Lợi thế cạnh tranh độc quyền)** | • **AI Explain bản địa hóa chuyên sâu** cho lỗi ngữ pháp & phát âm đặc thù của người Việt.<br>• **Hiệu ứng mạng lưới (Network Effect)** từ cơ chế đua top, thách đấu giữa các CLB và trường đại học. |
+| **8. Cost Structure (Cấu trúc chi phí)** | • **Biến phí:** Chi phí API LLM (giải thích lỗi) & API Speech-to-Text (chấm phát âm).<br>• **Định phí:** Hạ tầng Cloud Server / Database.<br>• **Chi phí vận hành nội dung:** Phát triển ngân hàng câu hỏi (200+ bài) & voucher giải thưởng đổi điểm. |
+| **9. Revenue Streams (Dòng doanh thu)** | • **Freemium:** Xem quảng cáo để hồi Tim (Hearts) / nhận thêm lượt hỏi AI.<br>• **Gói thuê bao sinh viên *LingoCraft Pro*:** **`39.000đ – 59.000đ/tháng`**.<br>• **Affiliate:** Liên kết giới thiệu khóa/lệ phí thi chứng chỉ **TOEIC / IELTS**. |
 
-### 2.3 Target Personas
-- Sinh viên định hướng TOEIC/B1 cho học tập, thi chứng chỉ và xin việc.
-- Người đi làm đang cần giao tiếp trong công việc hoặc hội thoại cơ bản với đồng nghiệp và khách hàng.
+---
 
-### 2.4 Key Pain Points
-- Không biết lỗi nằm ở đâu và vì sao.
-- Học nhiều nhưng không hiểu bản chất.
-- Mất tập trung trong các app học quá dài hoặc quá giống nhau.
-- Không có môi trường luyện phản xạ, sợ nói sai.
-
-### 2.5 Core Solutions
-- AI Grammar Coach: phân tích chỗ sai, giải thích quy tắc và đưa ví dụ.
-- AI Speaking Reflex: nhận diện phát âm, ngữ điệu và lời đáp tương ứng với tình huống.
-- Adaptive Review: nhắc ôn lại lỗi lặp lại theo lịch lặp.
-- Gamified Learning Loop: streak, level, achievement, challenge ngắn cùng phần thưởng.
-
-## 3. User Journey
+## 3. Hành trình Trải nghiệm Tổng thể (Mermaid User Journey)
 
 ```mermaid
 journey
-    title Learning Journey: From confusion to confidence
-    section Discovery
-      User opens app: 3
-      User sees daily challenge: 5
-    section Practice
-      User completes 5-min lesson: 5
-      User receives grammar explanation: 5
-      User fixes one repeated mistake: 4
-    section Speaking
-      User practices role-play: 4
-      User receives AI feedback: 5
-    section Habit
-      User maintains streak: 5
-      User feels progress: 5
-    section Retention
-      User upgrades to Pro: 3
-      User continues with goal-based track: 5
+    title LingoCraft AI: Hanh trinh tu choi bo den duy tri thoi quen hoc tieng Anh
+    section Kham pha & Bat dau
+      Xem video TikTok/CLB va tai Freemium App: 4: Nguoi hoc
+      Hoan thanh bai dau tien trong 24h (O4 >= 50%): 5: Nguoi hoc
+    section Vong lap Micro-learning (5-10 phut)
+      Hoc 1 cau/man hinh khong quang cao ngat quang: 5: Nguoi hoc
+      Bam nut Giai thich loi sai bang AI bang tieng Viet: 5: Nguoi hoc
+      Luyen phat am va duoc AI cham diem co ban: 4: Nguoi hoc
+    section Duy tri & Chuyen doi
+      Giu chuoi Streak (51,9%) & thach dau ban be (40,7%): 5: Nguoi hoc
+      Xem quang cao hoi Tim hoac nang cap LingoCraft Pro (39k-59k): 4: Nguoi hoc
 ```
-
-## 4. Value Proposition
-
-### 4.1 Tại sao người dùng chọn sản phẩm?
-- Họ muốn học biết “vì sao” chứ không chỉ “đúng hay sai”.
-- Họ cần một AI hiểu thói quen, lỗi và mục tiêu học cá nhân.
-- Họ cần tính hứng thú và đồng bộ giữa học và hành động.
-
-### 4.2 Tại sao doanh nghiệp đầu tư?
-- Học ngoại ngữ là thị trường lớn và ổn định.
-- Sản phẩm có khả năng giữ chân thông qua AI + gamification + local market fit.
-- Có thể mở rộng sang gói mục tiêu, B2B và nghiên cứu thị trường toàn Đông Nam Á sau này.
-
-## 5. Risks and assumptions
-
-- Rủi ro: người dùng không nhận thức được “giá trị sâu” nếu chưa thử trải nghiệm trực tiếp.
-- Giả định: người học muốn hiệu quả nhanh trong 10–15 phút/ngày và chấp nhận trả phí nếu sản phẩm chứng minh được lợi ích.
-- Yếu tố then chốt: độ chính xác của AI feedback và sự rõ ràng trong giải thích.
-
-## 6. Kết nối với tài liệu khác
-- Nhu cầu: [01-market-and-needs.md](./01-market-and-needs.md)
-- Vấn đề: [02-problem-statement.md](./02-problem-statement.md)
-- Tầm nhìn: [03-product-vision.md](./03-product-vision.md)
-- Persona chính: [persona-01-student.md](./personas/persona-01-student.md) và [persona-02-working-pro.md](./personas/persona-02-working-pro.md)
-
