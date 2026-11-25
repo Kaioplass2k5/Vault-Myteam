@@ -1,10 +1,10 @@
-> **Liên kết ngữ cảnh:** [Skill Discovery (SSOT)](../00-ai-harness/skill.md) | [Skill UI/UX (React Native)](../00-ai-harness/ui-ux-skill.md) | [MVP MoSCoW](../01-discovery/05-mvp-moscow.md) | [Design Tokens](../02-design-system/design-tokens.md) | [Component Library](../02-design-system/component-library.md) | [Prototype Screens](../02-design-system/prototype-screens.md) | [US-01](./user-stories/us-01-auth-and-onboarding.md) | [US-02](./user-stories/us-02-micro-learning-skill-tree.md) | [US-03](./user-stories/us-03-ai-error-explanation.md) | [US-04](./user-stories/us-04-ai-pronunciation-practice.md) | [US-05](./user-stories/us-05-gamification-streak-xp-hearts.md)
+> **Liên kết ngữ cảnh:** [Skill BA (PRD & User Stories)](../00-ai-harness/ba-skill.md) | [PRD Chính thức](./prd.md) | [Skill Discovery (PO)](../00-ai-harness/skill.md) | [Skill UI/UX (React Native)](../00-ai-harness/ui-ux-skill.md) | [MVP MoSCoW](../01-discovery/05-mvp-moscow.md) | [Design Tokens](../02-design-system/design-tokens.md) | [Component Library](../02-design-system/component-library.md) | [Prototype Screens](../02-design-system/prototype-screens.md) | [US-01](./user-stories/us-01-auth-and-onboarding.md) | [US-02](./user-stories/us-02-micro-learning-skill-tree.md) | [US-03](./user-stories/us-03-ai-error-explanation.md) | [US-04](./user-stories/us-04-ai-pronunciation-practice.md) | [US-05](./user-stories/us-05-gamification-streak-xp-hearts.md)
 
-# 📋 Tài liệu Yêu cầu Sản phẩm & Product Backlog (`LingoCraft AI`)
+# 📋 Product Backlog (`LingoCraft AI`)
 
-## 1. Tổng quan PRD & Quy trình Scrum (Scrum Cadence & Guardrails)
+## 1. Tổng quan & Quy trình Scrum (Scrum Cadence & Guardrails)
 
-Tài liệu này chuyển hóa trực tiếp phạm vi MVP tại [05-mvp-moscow.md](../01-discovery/05-mvp-moscow.md) thành **Product Backlog** và **User Stories** chi tiết để AI UI/UX Agent (theo [ui-ux-skill.md](../00-ai-harness/ui-ux-skill.md)) đọc thẳng và lắp ghép thành các màn hình **React Native Prototype** cùng bộ **Design System**.
+Tài liệu này chuyển hóa trực tiếp đặc tả tại [prd.md](./prd.md) và phạm vi MVP tại [05-mvp-moscow.md](../01-discovery/05-mvp-moscow.md) (theo chuẩn [ba-skill.md](../00-ai-harness/ba-skill.md)) thành **Product Backlog** và **User Stories** chi tiết để UI/UX Agent & Dev Team thực thi trong **4 tuần Vibe Code**.
 
 * **Sản phẩm:** **LingoCraft AI** — Ứng dụng học tiếng Anh Gamification tích hợp AI (Mobile App — React Native / Expo TypeScript) dành cho người Việt mất gốc **A1–A2** và ôn chuẩn đầu ra **TOEIC/B1**.
 * **Cơ sở dữ liệu khóa cứng:** Khảo sát thực tế **$N = 36$ sinh viên** (**58,3%** năm 1; **27,8%** năm 4) & bối cảnh **EF EPI 2025** (Việt Nam đạt **500/800**, Nói **461**, Nghe **470**).

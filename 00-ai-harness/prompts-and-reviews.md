@@ -1,4 +1,4 @@
-> **Liên kết ngữ cảnh:** [Skill Discovery (SSOT)](./skill.md) | [Skill UI/UX (React Native)](./ui-ux-skill.md) | [PO Kit](./po-kit.md) | [Market & Needs](../01-discovery/01-market-and-needs.md) | [Product Backlog](../03-requirements/product-backlog.md) | [Design Tokens](../02-design-system/design-tokens.md)
+> **Liên kết ngữ cảnh:** [Skill Discovery (SSOT)](./skill.md) | [Skill UI/UX (React Native)](./ui-ux-skill.md) | [Skill BA (PRD & User Stories)](./ba-skill.md) | [PO Kit](./po-kit.md) | [Market & Needs](../01-discovery/01-market-and-needs.md) | [PRD Chính thức](../03-requirements/prd.md) | [Product Backlog](../03-requirements/product-backlog.md) | [Design Tokens](../02-design-system/design-tokens.md)
 
 # 🐎 Nhật ký Điều phối & Kiểm soát AI (AI Harness Log)
 
@@ -17,21 +17,30 @@ Tài liệu này ghi lại cách nhóm **SBTC (VKU)** sử dụng các bộ Kit/
 
 ---
 
-## 2. Giai đoạn 2 & 3: Requirements, Design System & React Native Prototype
+## 2. Giai đoạn 2: Design System & React Native Prototype
 
 | Tài liệu đầu ra | Công cụ / Kit sử dụng | Prompt / Input đầu vào của nhóm | Điểm AI dễ mắc lỗi (Cần ghìm cương) | Cách nhóm đã ghìm cương & sửa lại (Human Review) |
 | :--- | :--- | :--- | :--- | :--- |
 | [UI/UX Skill](./ui-ux-skill.md) | Agile Mentor Feedback + Discovery Vault | Chuyển đổi từ quy trình vẽ Figma sang quy trình AI đọc thẳng từ **PRD & User Stories + Design System** để sinh màn hình **React Native**. | AI có xu hướng hiểu nhầm mỗi Persona cần 1 giao diện tách biệt hoàn toàn, hoặc tự sáng tạo thêm tính năng ngoài 5 Must-Have khi sinh UI. | Nhóm ban hành `ui-ux-skill.md` với **Unified Design System** (1 hệ giao diện thống nhất có chế độ thích ứng) và 4 Guardrails chống hardcode token, chống quá tải nhận thức (1 câu/màn hình). |
-| [Product Backlog](../03-requirements/product-backlog.md) & `user-stories/*.md` | [skill.md](./skill.md) + [ui-ux-skill.md](./ui-ux-skill.md) | Phân rã 5 tính năng Must-Have và 3 Should-Have thành Product Backlog, User Stories chi tiết và Gherkin Acceptance Criteria. | Nếu không gắn ràng buộc, AI dễ viết User Story chung chung không chỉ rõ Component nào cần dựng hoặc để sót luồng xử lý khi hết Tim / ở nơi công cộng. | Mỗi User Story (`US-01` đến `US-05`) đều gắn chặt với số liệu $N=36$, liệt kê danh sách Component ánh xạ trực tiếp sang `component-library.md` và có sơ đồ Mermaid + AC Gherkin cụ thể. |
-| [Design Tokens](../02-design-system/design-tokens.md), [Component Library](../02-design-system/component-library.md) & [Prototype Screens](../02-design-system/prototype-screens.md) | [ui-ux-skill.md](./ui-ux-skill.md) + `03-requirements/` | Sinh hệ thống Design Tokens (`theme.ts`), bộ Component React Native cơ bản/composite và 3 màn hình Prototype trọng tâm. | AI dễ hardcode mã hex, làm chữ giải thích AI quá nhỏ hoặc quá dài (> 8 dòng), thiếu vùng chạm $\ge 48\text{dp}$ cho thao tác 1 tay. | Khóa toàn bộ token trong `theme.ts` (câu hỏi `18–22px`, giải thích AI `15–16px`, touch target $\ge 48\text{dp}$), chuẩn hóa đủ Button/Input/Dropdown/BottomSheet/MicButton rồi mới lắp ghép màn hình Prototype. |
+| [Design Tokens](../02-design-system/design-tokens.md), [Component Library](../02-design-system/component-library.md) & [Prototype Screens](../02-design-system/prototype-screens.md) | [ui-ux-skill.md](./ui-ux-skill.md) + `03-requirements/` | Sinh hệ thống Design Tokens (`theme.ts`), bộ Component React Native cơ bản/composite và 3 màn hình Prototype trọng tâm. | AI dễ hardcode mã hex, làm chữ giải thích AI quá nhỏ hoặc quá dài (> 8 dòng), thiếu vùng chạm $\ge 48\text{dp}$ cho thao tác 1 tay. | Khóa toàn bộ token trong `theme.ts` (câu hỏi `18–22px`, giải thích AI `15–16px`, touch target $\ge 48\text{dp}$), chuẩn hóa đủ Button/Input/Dropdown/BottomSheet/MicButton; nhóm tự rà soát lại nguyên lý ánh xạ Persona $\rightarrow$ Token để làm chủ nội dung. |
 
 ---
 
-## 3. Quy trình Rà soát Định kỳ của Nhóm (Scrum Cadence)
+## 3. Giai đoạn 3: BA Skill, PRD, User Stories & Chuẩn bị Kiến trúc (Tuần 3)
+
+| Tài liệu đầu ra | Công cụ / Kit sử dụng | Prompt / Input đầu vào của nhóm | Điểm AI dễ mắc lỗi (Cần ghìm cương) | Cách nhóm đã ghìm cương & sửa lại (Human Review) |
+| :--- | :--- | :--- | :--- | :--- |
+| [BA Skill](./ba-skill.md) | Mentor Feedback (Buổi 21/11) + `01-discovery/` + `02-design-system/` | Tạo Skill cho thành viên BA mới (biết viết PRD/User Story nhưng chưa có ngữ cảnh dự án) và thiết lập **Knowledge Linking** từ Discovery & Design System. | Nếu không có cơ chế Knowledge Linking tường minh, BA Agent dễ bịa thêm tính năng ngoài MVP 4 tuần hoặc viết yêu cầu mơ hồ không khớp tên Component React Native đã tạo. | Định nghĩa sơ đồ Knowledge Linking 3 tầng (`Discovery` + `Design System` $\rightarrow$ `BA Skill` $\rightarrow$ `PRD & User Stories`) kèm 4 Luật cấm (No Hallucination, Anti-Scope Creep, Gherkin AC, Design-Code Alignment). |
+| [PRD Chính thức](../03-requirements/prd.md), [Product Backlog](../03-requirements/product-backlog.md) & `user-stories/*.md` | [ba-skill.md](./ba-skill.md) + `01-discovery/` + `02-design-system/` | Thực thi `write_prd` và `write_user_story` tổng hợp 8 yêu cầu chức năng (`FR-01`..`FR-08`), NFRs, Business Rules và Gherkin AC. | AI dễ viết NFR chung chung ("phản hồi nhanh") hoặc quên ràng buộc Freemium 6 tháng đầu và giá Pro `39.000đ–59.000đ/tháng`. | Khóa định lượng NFR (crash $\le 2$, API $\le 3$s, chuyển câu $< 300\text{ms}$, touch $\ge 48\text{dp}$) và liên kết từng `FR` về đúng `US-01`..`US-05` + Component trong `component-library.md`. |
+| [Software Architecture](../04-architecture/software-architecture.md) & [DB Schema](../04-architecture/db-schema.md) | [prd.md](../03-requirements/prd.md) + `user-stories/*.md` | Thiết kế sơ đồ kiến trúc hệ thống và lược đồ CSDL chuẩn bị cho tuần Vibe Code. | AI dễ vẽ kiến trúc microservice quá phức tạp không thể code trong 4 tuần. | Tinh gọn về kiến trúc thực dụng cho 4 tuần Vibe Code: **React Native (Expo)** $\rightarrow$ **Backend REST API** $\rightarrow$ **PostgreSQL/Supabase** + **LLM & Speech-to-Text Services**. |
+
+---
+
+## 4. Quy trình Rà soát Định kỳ của Nhóm (Scrum Cadence)
 ```mermaid
 flowchart LR
     A["Daily Meeting (3 ngay/lan)"] --> B["Chot Action Plan cu the cho tung thanh vien"]
-    B --> C["AI tao tai lieu / Component theo Skill"]
-    C --> D["Team cung doc lai & sua (Human-in-the-loop)"]
+    B --> C["AI tao tai lieu / Component theo Skill (PO, UI/UX, BA)"]
+    C --> D["Team cung doc lai, hieu ban chat & sua (Human-in-the-loop)"]
     D --> E["Cap nhat Audit Log & Bao cao Sprint (1 tuan/lan)"]
 ```
