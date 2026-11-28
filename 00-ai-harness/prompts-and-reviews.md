@@ -1,4 +1,4 @@
-> **Liên kết ngữ cảnh:** [Skill Discovery (SSOT)](./skill.md) | [Skill UI/UX (React Native)](./ui-ux-skill.md) | [Skill BA (PRD & User Stories)](./ba-skill.md) | [PO Kit](./po-kit.md) | [Market & Needs](../01-discovery/01-market-and-needs.md) | [PRD Chính thức](../03-requirements/prd.md) | [Product Backlog](../03-requirements/product-backlog.md) | [Design Tokens](../02-design-system/design-tokens.md)
+> **Liên kết ngữ cảnh:** [Skill Discovery (SSOT)](./skill.md) | [Skill UI/UX (React Native)](./ui-ux-skill.md) | [Skill BA (PRD & User Stories)](./ba-skill.md) | [Skill Implement (Vibe Code)](./implement-skill.md) | [PO Kit](./po-kit.md) | [Market & Needs](../01-discovery/01-market-and-needs.md) | [PRD Chính thức](../03-requirements/prd.md) | [Product Backlog](../03-requirements/product-backlog.md) | [Design Tokens](../02-design-system/design-tokens.md)
 
 # 🐎 Nhật ký Điều phối & Kiểm soát AI (AI Harness Log)
 
@@ -36,11 +36,26 @@ Tài liệu này ghi lại cách nhóm **SBTC (VKU)** sử dụng các bộ Kit/
 
 ---
 
-## 4. Quy trình Rà soát Định kỳ của Nhóm (Scrum Cadence)
+## 4. Giai đoạn 4: Vibe Code
+
+| Tài liệu đầu ra | Đầu vào của nhóm | Quyết định khi review | Kết quả |
+| :--- | :--- | :--- | :--- |
+| [Skill triển khai Vibe Code](./implement-skill.md) | “viết skill implement cho giai đoạn vibe code” | Sau khi thu hồi skill điều phối, nhóm yêu cầu một skill dành cho người trực tiếp sửa mã nguồn ứng dụng. | Skill hướng dẫn đi từ user story đến màn hình, API và dữ liệu, rồi chạy thử từ điểm vào của người học. |
+| [Bản sửa theo mẫu Spec Kit](./implement-skill.md) | Nhóm cung cấp mẫu `speckit-implement` và yêu cầu viết lại cho phù hợp với dự án và các skill đã tạo. | Giữ cách chia task theo phụ thuộc và kiểm tra trước khi đánh dấu hoàn thành. Dùng phạm vi MVP của PO, tiêu chí Gherkin của BA, component và token của UI/UX làm đầu vào. | Bản 1.1.0 minh họa cách chia US-03 thành ba task và quy định bằng chứng cần bàn giao cho từng AC. |
+
+**Prompt mẫu khi bắt đầu triển khai:** “Đọc [implement-skill.md](./implement-skill.md). Triển khai [US-03](../03-requirements/user-stories/us-03-ai-error-explanation.md) trong repo ứng dụng từ luồng trả lời sai của US-02. Báo kết quả AC-01 đến AC-03 trên cùng một bản build.”
+
+**Nội dung cần kiểm tra khi review US-03.** Với AC-01, nộp đáp án sai từ màn hình bài học và kiểm tra nút giải thích trong bảng phản hồi. Với AC-02, gọi API thật và đối chiếu lời giải thích tiếng Việt với lỗi vừa mắc, kể cả giới hạn bốn dòng. Với AC-03, ngắt mạng khi gọi API rồi thử bấm “Tiếp tục” để sang câu kế. Kiểm tra thêm trường hợp hết lượt nếu hạn mức đang áp dụng.
+
+**Trạng thái ghi nhận:** Phần trên ghi lại việc hoàn thiện skill. US-03 là ví dụ trong skill và chưa có kết quả chạy app trong nhật ký này. Sau khi thử, ghi phiên bản build, mã AC, thao tác, kết quả quan sát và trạng thái **Đạt / Chưa đạt / Chưa kiểm tra**. Nếu phát hiện lỗi, bổ sung phản hồi của người review, cách sửa và kết quả thử lại.
+
+---
+
+## 5. Quy trình Rà soát Định kỳ của Nhóm (Scrum Cadence)
 ```mermaid
 flowchart LR
     A["Daily Meeting (3 ngay/lan)"] --> B["Chot Action Plan cu the cho tung thanh vien"]
-    B --> C["AI tao tai lieu / Component theo Skill (PO, UI/UX, BA)"]
+    B --> C["AI tao tai lieu hoac trien khai story theo skill tuong ung"]
     C --> D["Team cung doc lai, hieu ban chat & sua (Human-in-the-loop)"]
     D --> E["Cap nhat Audit Log & Bao cao Sprint (1 tuan/lan)"]
 ```
